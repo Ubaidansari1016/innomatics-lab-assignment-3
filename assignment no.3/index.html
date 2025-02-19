@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+
+        background: url("background.jpg");
+        backdrop-filter: blur(5px);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      .outbutton {
+        justify-content: center;
+        color: rgb(253, 253, 253);
+        text-decoration: none;
+
+        border-radius: 5px;
+        padding: 20px 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        outline: none;
+
+        border: none;
+        box-shadow: none;
+      }
+      .heading{
+        
+        background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+        overflow: 50px;
+        position: relative;
+        font-size: xxx-large;
+
+      }
+      h1{
+        text-align: center;
+        transform: translate(100%);
+        animation: scroll-left 15s linear infinite;
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+        <marquee behavior="scroll" direction="left" scrollamount="10">Welcome to My Javascript Assignment 3</marquee>
+    </div>
+    <div id="maincontainer"></div>
+    <nav class="linkbutton">
+      <a class="outbutton" href="shopping calcutor.html">shopping Calculator</a>
+      <a class="outbutton" href="flight booking.html">Flight booking</a>
+      <a class="outbutton" href="student grading.html"
+        >student grading system</a
+      >
+      <a class="outbutton" href="traffic light.html">smart traffic light</a>
+      <a class="outbutton" href="movie.html">movie ticket booking system</a>
+      <a class="outbutton" href="job eligible filtering.html"
+        >job eligible filtering</a
+      >
+      <a class="outbutton" href="e-commerce code aplly.html"
+        >E-commerce promo code applying</a
+      >
+      <a class="outbutton" href="fitness membership.html"
+        >fitness membership plan</a
+      >
+      <a class="outbutton" href="Electricity bill calculation.html"
+        >Electricity bill Calculator</a
+      >
+      <a class="outbutton" href="atm.html">ATM withdraw system</a>
+    </nav>
+  </body>
+</html>
